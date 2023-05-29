@@ -1,0 +1,109 @@
+@import './fonts.css';
+@import './reset.css';
+/* * var(--pop)
+*    var(--fira) */
+:root{
+    --pop: 'Poppins', sans-serif;
+    --fira: 'Fira Sans', sans-serif;
+    --bgc: #1C1E22;
+}
+body{
+    overflow-x: hidden;
+    background-color: var(--bgc);
+    font-family: var(--fira);
+    color: white;
+}
+.circle-1{
+    position: absolute;
+    width: 45.5rem;
+    height: 45.5rem;
+    margin-left: 76vw;
+    background: conic-gradient(from 180deg at 50% 50%, #00FFE0 0deg, #7000FF 360deg);
+    filter: blur(350px);
+    transform: rotate(-108.84deg);
+}
+.wrapper{
+    margin: 4rem 7.5rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    .hero_nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .nav__menu{
+            display: flex;
+            flex-direction: row;
+            gap: 3.75em;
+            .nav__menu-a{
+                font-family: var(--pop);
+                font-weight: 400;
+                color: white;
+                text-decoration: none;
+                box-sizing: border-box;
+                min-height: 20px;
+                /* TODO: add transition on hover*/
+                &:hover{
+                    transition: 1s, all;
+                    border-bottom: 1.7px solid #fff;
+                }
+            }
+        }
+        .nav__social{
+            display: flex;
+            flex-direction: row;
+            gap: 1.8rem;
+            align-items: center;
+            .nav__social-img{
+                width: 1.8em;
+                height: 1.8em;
+            }
+        }
+    }
+    .hero_main{
+        display: flex;
+        flex-direction: row;
+        .hero_main-text{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-top: 10rem;
+            .hero_main-text--1{
+                font-family: var(--pop);             ;
+                font-weight: 400;
+                font-size: 4rem;
+                line-height: 6rem;
+                color: #0EE6B7;
+            }
+            .hero_main-text--2{
+                font-family: var(--pop);             
+                font-weight: 700;
+                font-size: 4rem;
+                line-height: 6rem;
+                color: #FFFFFF;
+            }
+            .hero_main-text--3{
+                font-family: var(--pop);             
+                font-weight: 700;
+                font-size: 4.5rem;
+                line-height: 6.75rem;
+                letter-spacing: 0.055em;
+                background-image: linear-gradient(to right, rgb(14, 230, 183), rgb(255, 255, 255,0.12)); /* Градієнтний фон */
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+        .hero_main-img{
+            position: absolute;
+            z-index: -1;
+            right: 7rem;
+            margin-top: 3.5rem;
+            width: auto;
+            height: 350px;
+        }
+    }
+}
