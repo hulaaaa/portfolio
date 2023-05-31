@@ -270,10 +270,6 @@ body{
 
 
 @media screen and (max-width:500px) {
-    body{
-        height: 100vh;
-
-    }
     /* wrapper */
     .wrapper{
         width: 25rem;
