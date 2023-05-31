@@ -10,7 +10,6 @@
 }
 
 body{
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,8 +43,9 @@ body{
     filter: blur(750px);
 } 
 .wrapper{
-    
-    width: 1000px;
+    overflow-x: hidden;
+
+    width: 62.5rem;
     padding: 4rem 7.5rem;
     margin: 0 auto;
 }
@@ -269,11 +269,17 @@ body{
     border: 0.5px solid #FFFFFF;
 }
 
-
+.all{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 @media screen and (max-width:500px) {
     /* wrapper */
     .wrapper{
-        width: 25rem;
+        width: 300px;
         padding: 3rem 5rem;
         margin: 0 auto;
     }
