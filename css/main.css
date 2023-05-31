@@ -270,7 +270,9 @@ body{
 
 
 @media screen and (max-width:500px) {
-
+    body{
+        overflow-x: hidden;
+    }
     /* wrapper */
     .wrapper{
         width: 400px;
