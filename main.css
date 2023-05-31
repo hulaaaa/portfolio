@@ -1,6 +1,6 @@
-@import './fonts.css';
-@import './reset.css';
-@import './mobile.css';
+@import './css/fonts.css';
+@import './css/reset.css';
+
 /* * var(--pop)
 *    var(--fira) */
 :root{
