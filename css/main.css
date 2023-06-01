@@ -8,7 +8,7 @@
     --fira: 'Fira Sans', sans-serif;
     --bgc: #1C1E22;
 }
-
+html{scroll-behavior:smooth}
 body{
     background-image: linear-gradient(to top, #268ca5 0%, #330867 100%);
     display: flex;
