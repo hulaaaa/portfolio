@@ -20,28 +20,7 @@ body{
     font-family: var(--fira);
     color: white;
 }
-.circle-1{
-    position: absolute;
-    z-index: -9;
-    opacity: 0.7;
-    width: 45.5rem;
-    height: 45.5rem;
-    margin-left: 76vw;
-    background: conic-gradient(from 180deg at 50% 50%, #00FFE0 0deg, #7000FF 360deg);
-    filter: blur(350px);
-    transform: rotate(-108.84deg);
-}
-.circle-2{
-    position: absolute;
-    z-index: -10;
-    opacity: 0.5;
-    width: 100rem;
-    height: 62rem;
-    left: 7.3rem;
-    top: 65rem;
-    background: conic-gradient(from 180deg at 50% 50%, #00FFE0 0deg, #7000FF 360deg);
-    filter: blur(750px);
-} 
+
 .wrapper{
     width: 1000px;
     padding: 4rem 7.5rem;
@@ -267,17 +246,9 @@ body{
     border: 0.5px solid #FFFFFF;
 }
 
-.all{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    overflow-x: hidden;
-    
-}
 @media screen and (max-width:500px) {
     /* wrapper */
     .wrapper{
-        box-sizing: border-box;
         width: 400px;
         padding: 2rem 4rem;
         margin: 0 auto;
