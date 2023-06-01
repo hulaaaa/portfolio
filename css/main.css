@@ -10,6 +10,7 @@
 }
 
 body{
+    background-image: linear-gradient(to top, #268ca5 0%, #330867 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
